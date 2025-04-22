@@ -10,7 +10,7 @@ import morgan from "morgan";
 import routes from "./routes";
 import cookieParser from "cookie-parser";
 
-const PORT = 7000;
+const PORT = 3000;
 const app = express();
 
 // Favicon handler with caching
