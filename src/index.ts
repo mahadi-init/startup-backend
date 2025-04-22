@@ -25,6 +25,7 @@ app.get("/favicon.ico", (req, res) => {
   }
 });
 
+// home route
 app.get("/", (_, res) => {
   res.status(200).json({
     sucess: true,
