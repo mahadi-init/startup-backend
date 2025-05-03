@@ -12,10 +12,12 @@
     "build": "tsc"
   },
   "dependencies": {
+    "@cloudflare/wrangler": "^1.21.0",
     "@xata.io/client": "^0.0.0-next.v93343b9646f57a1e5c51c35eccf0767c2bb80baa",
     "cookie-parser": "^1.4.7",
     "cors": "^2.8.5",
     "express": "^5.1.0",
+    "itty-router": "^5.0.18",
     "jsonwebtoken": "^9.0.2",
     "morgan": "^1.10.0",
     "nodemailer": "^6.10.1",

@@ -14,7 +14,7 @@ const PORT = 3000;
 const app = express();
 
 // Favicon handler with caching
-app.get("/favicon.ico", (req, res) => {
+app.get("/favicon.ico", (_, res) => {
   const iconPath = path.join(__dirname, "public", "favicon.ico");
   if (fs.existsSync(iconPath)) {
     res.setHeader("Content-Type", "image/x-icon");
