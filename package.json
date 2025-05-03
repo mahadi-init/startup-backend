@@ -12,11 +12,9 @@
     "build": "tsc"
   },
   "dependencies": {
-    "@libsql/client": "^0.15.4",
+    "@xata.io/client": "^0.0.0-next.v93343b9646f57a1e5c51c35eccf0767c2bb80baa",
     "cookie-parser": "^1.4.7",
     "cors": "^2.8.5",
-    "dotenv": "^16.5.0",
-    "drizzle-orm": "^0.42.0",
     "express": "^5.1.0",
     "jsonwebtoken": "^9.0.2",
     "morgan": "^1.10.0",
@@ -30,7 +28,6 @@
     "@types/express": "^5.0.1",
     "@types/jsonwebtoken": "^9.0.9",
     "@types/morgan": "^1.9.9",
-    "@types/nodemailer": "^6.4.17",
-    "drizzle-kit": "^0.31.0"
+    "@types/nodemailer": "^6.4.17"
   }
 }

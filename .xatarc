@@ -1,0 +1,6 @@
+{
+  "databaseURL": "https://Mahadi-Hasan-s-workspace-up9514.us-east-1.xata.sh/db/startup",
+  "codegen": {
+    "output": "src/xata.ts"
+  }
+}
